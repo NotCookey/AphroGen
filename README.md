@@ -27,7 +27,8 @@ GET /generate/wanted?avatar=https://avatars.githubusercontent.com/u/100358774?s=
 The `generate/wanted` route is used to generate a wanted image with the provided avatar image link. Check The API Reference for all different routes, [API Reference](#api-reference). 
 
 
-It will send you the file as an attachment whenever you request an image. If you're using code to produce, you'll need to use an Image Libary to parse the image raw data from the request's content. Here's an example in Python
+It will send you the file as the response body whenever you request an image. If you're using code to produce, you'll need to use an Image Libary to parse the image raw data from the response content. Here's an example in Python
+
 ```python
 import requests
 from PIL import Image
@@ -36,6 +37,7 @@ data=requests.get("https://aphro.vercel.app/generate/wanted?avatar=https://avata
 im=Image.open(data)
 im.save("wanted.png")
 ```
+
 The code above requests the API to generate a wanted image with the provided avatar image link and using `.raw` to load the raw content of the requests. Then using [Pillow Libary](https://pypi.org/project/Pillow) to read the Raw Data into an actual image and saving it as `wanted.png`.
 
 ## Image Generation Routes
