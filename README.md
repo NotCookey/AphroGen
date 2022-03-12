@@ -5,7 +5,7 @@
 
 | Name       | URL                 | Description                                                                                                                                                                                                        |
 | :--------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Production | aphro.vercel.app    | The public API server for generating images                                                                                                                                                                                            |
+| Production | aphro.vercel.app    | The public API for generating images                                                                                                                                                                                            |
 
 ## API Reference
 
