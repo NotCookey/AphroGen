@@ -1,5 +1,5 @@
 <h1 align="center">AphroGen</h1>
-<h4 align="center">A Fast, Free And Reliable Image Generation API</h4>
+<h4 align="center">A Fast, Free And Reliable Meme Generation API</h4>
 
 **Production Servers**
 
