@@ -87,8 +87,6 @@ At the moment, this API is not open-source since I still have a lot of stuff to 
 
 If you have any questions or would want to contact me, please do so using any of the social platforms listed below.
 
-> **Developed And Maintained By SecretsX**
+> **Developed And Maintained By [Cookey](https://github.com/NotCookey)**
 
-> **Discord : Kanao#5758**
-
-> **Twitter : @4R3T3**
+> **Twitter : @NotCookey**
