@@ -33,7 +33,7 @@ It will send you the file as the response body whenever you request an image. If
 import requests
 from PIL import Image
 
-data=requests.get("https://aphro.vercel.app/generate/wanted?avatar=https://avatars.githubusercontent.com/u/100358774?s=200&v=4",stream=True).raw
+data=requests.get("https://aphro.vercel.app/generate/wanted?avatar=https://avatars.githubusercontent.com/u/88582190?v=4",stream=True).raw
 im=Image.open(data)
 im.save("wanted.png")
 ```
