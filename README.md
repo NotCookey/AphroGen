@@ -22,7 +22,7 @@ Example
 ```HTTP
 GET /generate/wanted?avatar=https://avatars.githubusercontent.com/u/100358774?s=200&v=4
 ```
-<kbd><img src="https://media.discordapp.net/attachments/930065267848003590/951845033903026296/unknown.png" width=150px></kbd>
+<kbd><img src="https://aphro.vercel.app/generate/wanted?avatar=https://avatars.githubusercontent.com/u/88582190?v=4" width=150px></kbd>
 
 The `generate/wanted` route is used to generate a wanted image with the provided avatar image link. Check The API Reference for all different routes, [API Reference](#api-reference). 
 
