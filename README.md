@@ -20,7 +20,7 @@ The `/generate` endpoint of the API is used to produce various pictures. The Gen
 Example
 
 ```HTTP
-GET /generate/wanted?avatar=https://avatars.githubusercontent.com/u/100358774?s=200&v=4
+GET /generate/wanted?avatar=https://avatars.githubusercontent.com/u/88582190?v=4
 ```
 <kbd><img src="https://aphro.vercel.app/generate/wanted?avatar=https://avatars.githubusercontent.com/u/88582190?v=4" width=150px></kbd>
 
